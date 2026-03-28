@@ -4,7 +4,7 @@ local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
 local LocalPlayer = Players.LocalPlayer
-
+local Camera = workspace.CurrentCamera
 -- SETTINGS
 _G.Settings = {
     ESP = false,
